@@ -1,15 +1,18 @@
 # Password-mangaer-valut-
 this is work on the every browser
-Secure Password Vault 🔐
+
+
+#**Secure Password Vault 🔐**
 A simple and secure Chrome extension that automatically saves your login credentials and stores them safely in your browser.
 
-About the Project
+About the Project_
 This extension acts as a personal password manager. Instead of manually entering and saving passwords, it detects when you log in to a website and automatically saves your email and password.
 
-Key Features ✨
+Key Features ✨-
 Automatic Capture: Automatically captures your email and password when you log in to any website.
 
-Secure Storage: Uses robust CryptoJS encryption to securely store your data in your browser's local storage.
+Secure Storage:
+Uses robust CryptoJS encryption to securely store your data in your browser's local storage.
 
 Smart Saving: When you log in with a Google account, it intelligently saves only your email and notes that it was a Google login, without saving a password.
 
