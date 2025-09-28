@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password Vault</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="main-container">
+    <h2>Secure Password Vault</h2>
+    <div id="password-setup" class="screen">
+      <p>Set a master password for your vault.</p>
+      <input type="password" id="master-password" placeholder="Enter new master password">
+      <button id="set-password-btn" class="my-custom-button">Set Password</button>
+    </div>
+    
+    <div id="vault-login" class="screen" style="display: none;">
+      <p>Enter your master password to unlock.</p>
+      <input type="password" id="vault-password" placeholder="Enter master password">
+      <button id="unlock-btn" class="my-custom-button">Unlock</button>
+    </div>
+
+    <div id="vault-content" class="screen" style="display: none;">
+      <h3>Saved Credentials</h3>
+      <ul id="credentials-list"></ul>
+    </div>
+  </div>
+  <script src="lib/crypto-js.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
